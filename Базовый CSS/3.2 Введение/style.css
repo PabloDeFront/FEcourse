@@ -1,0 +1,11 @@
+body {
+    display: block;
+    background-color: black;
+}
+
+h1 {
+    color: chocolate;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

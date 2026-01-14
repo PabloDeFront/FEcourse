@@ -1,0 +1,12 @@
+html {
+    font-size: 15px;
+}
+
+.block {
+    font-size: 50px;
+}
+
+.block p {
+    font-size: 2rem;
+}
+/* rem зависит от размера шрифта на всём сайте */

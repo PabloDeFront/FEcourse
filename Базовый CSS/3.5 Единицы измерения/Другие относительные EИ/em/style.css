@@ -1,0 +1,9 @@
+.block {
+    font-size: 20px;
+}
+
+.block p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+/* em зависит от размера шрифта родителя */

@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red !important;
+    font-size: 30px;
+}
+/* ⁡⁢⁣⁢!important⁡ - даёт наибольший вес среди всего */

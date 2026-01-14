@@ -1,0 +1,9 @@
+.link-one {
+    color: red;
+}
+
+.link-two {
+    color: blue;
+}
+
+/* лучше всё делать через class без каскадов */
