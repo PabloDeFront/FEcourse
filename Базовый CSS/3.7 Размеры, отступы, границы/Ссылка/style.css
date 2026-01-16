@@ -1,0 +1,10 @@
+a {
+    background: cyan;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    /* так как ссылка - это строчный тип, то margin не работает */
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

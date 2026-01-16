@@ -1,0 +1,23 @@
+.element-1 {
+  display: inline;
+  color: white; /* Цвет текста */
+  background-color: red; /* Цвет фона */
+}
+
+.element-2 {
+  display: inline;
+  color: white; /* Цвет текста */
+  background-color: blueviolet; /* Цвет фона */
+}
+
+.element-3 {
+  display: inline;
+  color: white; /* Цвет текста */
+  background-color: green; /* Цвет фона */
+}
+
+.element-4 {
+  display: inline;
+  color: white; /* Цвет текста */
+  background-color: cornflowerblue; /* Цвет фона */
+}

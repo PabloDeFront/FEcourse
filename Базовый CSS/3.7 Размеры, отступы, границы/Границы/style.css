@@ -1,0 +1,17 @@
+/* .block {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+} */
+
+/* .block {
+    border: 2px solid black;
+}
+то же самое, но в 1 строку */
+
+.block {
+    border-top: 10px solid black;
+    border-bottom: 5px dashed black;
+    border-right: 5px dotted red;
+    border-left: 5px solid grey;
+}

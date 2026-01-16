@@ -1,0 +1,21 @@
+.element-1 {
+  display: inline-block;
+  width: 140px;
+  color: white; /* Цвет текста */
+  background-color: red; /* Цвет фона */
+}
+
+.element-2 {
+  display: inline-block;
+  height: 50px;
+  color: white; /* Цвет текста */
+  background-color: blueviolet; /* Цвет фона */
+}
+
+.element-3 {
+  display: inline-block;
+  width: 180px;
+  height: 120px;
+  color: white; /* Цвет текста */
+  background-color: green; /* Цвет фона */
+}

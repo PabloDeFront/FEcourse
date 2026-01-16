@@ -1,0 +1,26 @@
+.social__item {
+    display: inline-block;
+}
+
+.social__link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.twitter .social__link {
+  background-image: url(img/twitter-round-blue.png);
+}
+
+.fb .social__link {
+  background-image: url(img/fb-square-blue.png);
+}
+
+.youtube .social__link {
+  background-image: url(img/youtube-red-square.png);
+}
+/* иконки соц.сетей */

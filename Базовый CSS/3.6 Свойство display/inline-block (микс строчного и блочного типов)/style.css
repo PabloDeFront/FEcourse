@@ -1,0 +1,16 @@
+.block {
+    margin-bottom: 30px;
+}
+
+.inline {
+    margin-bottom: 30px;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+div, span {
+    background-color: red;
+}

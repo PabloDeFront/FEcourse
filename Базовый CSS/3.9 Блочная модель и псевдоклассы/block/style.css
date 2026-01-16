@@ -1,0 +1,25 @@
+.element-1 {
+  display: block;
+  background-color: red; /* Цвет фона */
+  color: white; /* Цвет текста */
+}
+
+.element-2 {
+  display: block;
+  background-color: blueviolet; /* Цвет фона */
+  color: white; /* Цвет текста */
+}
+
+.element-3 {
+  display: block;
+  color: white; /* Цвет текста */
+  background-color: green; /* Цвет фона */
+}
+
+.element-4 {
+  display: block;
+  width: 50%;
+  height: 100px;
+  color: white; /* Цвет текста */
+  background-color: cornflowerblue; /* Цвет фона */
+}
