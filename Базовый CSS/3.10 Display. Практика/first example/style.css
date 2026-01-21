@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+}
+
+/* ⁡⁢⁣⁣после классов со свойством display:block всегда идёт перенос строки⁡ */

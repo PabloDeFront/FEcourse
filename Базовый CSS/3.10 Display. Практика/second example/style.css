@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    font-size: 0;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, .33);
+}
+
+.element {
+    font-size: 16px;
+    outline: 1px solid #000;
+    display: inline-block;
+    width: 320px;
+}
+
+/* ⁡⁢⁣⁣Хоть ширина 1000px у отца, а у дочерей в сумме 999px, все равно последний
+элемент переносится на следующую строку
+Чтобы это пофиксить у отца задаём font-size 0px, а у дочерей любой другой
+не равный 0 (16px)⁡ */
+/* ⁡⁢⁣⁢Такая херня только у display:inline-block⁡ */
+
+.element:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* сделали отступы⁡ */
