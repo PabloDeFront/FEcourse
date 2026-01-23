@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    padding: 2rem 1rem;
+}
+
+h2 {
+    margin: 0 0 1em;
+}
+
+ul {
+    display: inline-block;
+    margin: 0;
+    padding-left: 1em;
+}
+
+ul:not(:last-child) {
+   margin: 0 2em 1em 0;
+}
+
+/* ul:last-child {
+   margin-right: 0; 
+   margin-bottom: 0;
+
+} */
+
+.example:not(:last-child) {
+   margin-bottom: 2em;
+}
+
+/* ⁡⁢⁣⁢если элементы идут друг за другом, то margin-right
+если друг под другом, то margin-bottom⁡ */
