@@ -1,0 +1,26 @@
+/* ⁡⁢⁣⁢position:⁡
+⁡⁢⁢⁢1)static - элемент в рамках правил потока
+2)absolute - абсолютное позиционирование
+3)relative - относительное
+4)fixed - позиционирование относительно экрана⁡ */
+/* ⁡⁢⁢⁢5)sticky - прилепить элемент к краю⁡ */
+
+.block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: crimson;
+  left: 50px;
+  top: 5px;
+}
+
+.relative {
+  position: relative;
+  left: 50px;
+  top: 5px;
+  background-color: #000;
+}
+
+/* ⁡⁢⁣⁢на 𝗹𝗲𝗳𝘁 и 𝘁𝗼𝗽 реагирует только .𝗿𝗲𝗹𝗮𝘁𝗶𝘃𝗲⁡ (static не
+реагирует) */
