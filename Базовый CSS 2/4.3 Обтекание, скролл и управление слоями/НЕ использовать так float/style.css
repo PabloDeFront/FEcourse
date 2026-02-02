@@ -1,0 +1,15 @@
+.parent {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.block {
+  width: 33%;
+  min-height: 300px;
+  outline: 1px solid black;
+  background-color: silver;
+  float: left;
+}
+
+/* ⁡⁢⁣⁢ТАК 𝗙𝗟𝗢𝗔𝗧 НЕ ПОЛЬЗОВАТЬСЯ⁡ ⁡*/
+/* ДЛЯ ПОСТРОЕНИЯ БЛОКОВ ПОДРЯД */

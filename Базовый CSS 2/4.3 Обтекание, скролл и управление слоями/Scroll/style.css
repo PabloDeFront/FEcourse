@@ -1,0 +1,20 @@
+.overflow {
+  width: 400px;
+  height: 200px;
+  outline: 3px solid red;
+  /* overflow: auto; */
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+/* overflow: hidden - всё что не помещается в
+контейнер будет удалено */
+
+/* overflow: scroll - контейнер превращается в 
+экранчик с скролл-барами */
+
+/* overflow: auto - также экран со скролл-барами
+но если какой нибудь скролл не нужен (горизонтальный
+или/и вертикальный) его не будет в окошке */
+
+/* overflow идет по x и y */

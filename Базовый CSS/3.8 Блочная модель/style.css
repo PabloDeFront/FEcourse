@@ -3,7 +3,7 @@
     width: 400px;
     padding: 20px;
     border: 6px solid gray;
-    /* ⁡⁢⁢⁢box-sizing: border-box - внутринние отступы съедают размеры
+    /* ⁡⁢⁢⁢box-sizing: border-box - внутренние отступы съедают размеры
     элемента изнутри⁡ - ⁡⁢⁣⁢использовать всегда⁡*/
 }
 
