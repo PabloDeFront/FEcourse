@@ -1,0 +1,32 @@
+.text {
+    width: 300px;
+    font-size: 20px;
+
+    line-height: 0.8;
+    letter-spacing: -2px;
+
+    font-family: Arial;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    text-indent: 1em;
+
+    white-space: normal;
+
+    word-spacing: normal;
+}
+
+/* ⁡⁢⁢⁢line-height - высота строки (промежуток между строками)
+⁡ */
+/* ⁡⁢⁢⁢letter-spacing - промежуток между буквами⁡ */
+
+ /* ⁡⁢⁢⁢text-indent - красная строка⁡ */
+
+ /*⁡⁢⁢⁢ white-space - поведение пробелов (при ⁡⁢⁣⁢normal⁡ - ⁡⁢⁢⁢всё как 
+ обычно, при ⁡⁢⁣⁢nowrap⁡ ⁡⁢⁢⁢пробелы не переносят слова на новые 
+ сттроки, то есть все слова подряж) ⁡*/
+
+ /* ⁡⁢⁢⁢при ⁡⁢⁣⁢pre⁡ ⁡⁢⁢⁢пробелы будут также как и в html⁡⁡ */
+
+ /* ⁡⁢⁣⁣word-spacing - расстояние между буквами⁡ */

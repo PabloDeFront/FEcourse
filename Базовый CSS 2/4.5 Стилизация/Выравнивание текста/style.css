@@ -1,0 +1,7 @@
+.block {
+    border: 1px solid black;
+    text-align: justify;
+}
+
+/* text-align(center,right,left,justify) - выравнивание
+текста, где justify - на всю ширину  */

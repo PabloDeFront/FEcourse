@@ -1,0 +1,8 @@
+.block {
+    text-transform: capitalize;
+}
+
+/* ⁡⁢⁢⁢text-transform - регистр букв
+uppercase - все больште
+lowercase - все маленькие
+capitalize - каждое слово с большой буквы⁡ */

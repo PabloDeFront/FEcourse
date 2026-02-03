@@ -1,0 +1,8 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    opacity: .40;
+}
+
+/* opacity делает весь блок и его содержимое прозрачным */

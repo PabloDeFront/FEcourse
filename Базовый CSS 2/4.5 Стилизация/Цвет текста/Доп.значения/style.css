@@ -1,0 +1,10 @@
+ul {
+    color:red
+}
+
+a {
+    color: inherit;
+}
+
+/* inherit - наследование от родителя */
+/* initial - первозданное значение */
