@@ -1,5 +1,11 @@
-* {
+html {
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 
 body {
@@ -31,6 +37,15 @@ img {
   color: #333
 }
 
+.text:last-child {
+  margin-bottom: 0;
+}
+
+.text a {
+  color: #3f2aff;
+  text-decoration: none;
+}
+
 .quote-text {
   background-color: #ebebeb;
   max-width: 900px;
@@ -43,8 +58,14 @@ img {
   font-weight: 700;
 }
 
+.quote-author {
+  font-style: normal;
+}
+
 .image-group {
   margin: 0;
+  margin-bottom: 60px;
+  width: 100%;
 }
 
 .image-group-text {
@@ -54,16 +75,7 @@ img {
   font-size: 20px;
   text-align: center;
   border-radius: 10px;
-  margin-bottom: 60px;
-  margin-top: 10px;
 }
-
-
-figure {
-  margin: 0;
-}
-
-
 
 .second-title {
   margin: 0;
