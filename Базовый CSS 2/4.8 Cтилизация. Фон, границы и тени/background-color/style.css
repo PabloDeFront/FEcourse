@@ -1,0 +1,9 @@
+.bg {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    background-color: red;
+    background-color: rgba(0, 0, 255);
+}
+
+/* ⁡⁢⁢⁢background-color можно сбросить через background-color:transperent⁡ */

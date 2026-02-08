@@ -1,0 +1,31 @@
+.shadow {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: gray;
+}
+
+/* ⁡⁢⁢⁢box-shadow: 5px 3px 10px #000;, где
+1)толщина по горизонтали
+2)толщина по вертикали
+3)размытие
+4)цвет⁡ */
+
+/* ⁡⁢⁣⁡⁢⁢⁣inset - блок будет не парить, а впадать в страницу⁡ ⁡*/
+
+.shadow__text {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.inblock {
+    box-shadow: inset 15px 7px 10px #000;
+}
+
+.outblock {
+    box-shadow: 15px 7px 10px #000;
+}

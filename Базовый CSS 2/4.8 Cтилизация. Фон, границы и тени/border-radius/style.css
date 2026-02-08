@@ -1,0 +1,11 @@
+.border {
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    /* border-radius: 50px; */
+    /* border-top-left-radius: 30px; */
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+/* ⁡⁢⁢⁢border-top-left-radius: 30px; - загкругление только у верхнего левого угла
+border-bottom-right-radius: 30px; - закругление у нижнего правого угла⁡ */

@@ -1,0 +1,18 @@
+.bg {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: #333;
+    background-image: url(img/moscow.jpg);
+}
+
+/* ⁡⁢⁢⁢добавить контрастирующий фон (background-color) с текстом для случая, когда картинка 
+не прогрузиться⁡ */
+
+.text {
+    margin: 0;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
