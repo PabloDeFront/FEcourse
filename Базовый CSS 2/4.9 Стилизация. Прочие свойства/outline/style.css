@@ -1,0 +1,7 @@
+.outline {
+    width: 200px;
+    outline: 2px solid red;
+}
+
+/* ⁡⁢⁢⁢в отличие от border outline не изменяет блочной модели (не добавляет
+пиксели)⁡ */
