@@ -3,6 +3,8 @@
 }
 
 .product {
+  margin: auto auto;
+  display: inline-block;
   border: 1px solid #000;
   padding: 15px;
   width: 250px;
@@ -59,6 +61,8 @@
   top: 10px;
   right: 10px;
   border: 0px transparent;
-  border-radius: 50%;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   z-index: 10;
+  box-shadow: 7px 7px 10px black;
 }
