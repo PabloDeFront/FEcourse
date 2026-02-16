@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	font-family: 'Roboto',sans-serif;
+}
+
+.site-content {
+	background-color: #f1f1f1;
+}
+
+.width {
+	padding: 30px;
+	width: 1920px;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.content h1 {
+	font-weight: 700;
+}
