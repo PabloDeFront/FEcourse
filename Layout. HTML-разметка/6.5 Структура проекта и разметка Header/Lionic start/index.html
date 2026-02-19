@@ -14,45 +14,45 @@
             <a href="#" class="header-logo">
                 <img src="img/logo.svg" class="header-logo" alt="Logo">
             </a>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="header-list-item">
+                        <a href="#" class="header-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header-list-item">
+                        <a href="#services" class="header-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="header-list-item">
+                        <a href="#articles" class="header-link">
+                            Articles
+                        </a>
+                    </li>
+                    <li class="header-list-item">
+                        <a href="#clients" class="header-link">
+                            Clients
+                        </a>
+                    </li>
+                    <li class="header-list-item">
+                        <a href="#contacts" class="header-link">
+                            Contacts
+                        </a>
+                    </li>
+                    <li class="header-list-item">
+                        <a href="#join-us" class="header-link">
+                            Join us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- тег с классом можно прописать: название_тега.класс_тега.подкласс_тега -->
+            <button class="btn header-btn">
+                Free trial
+            </button>
         </div>
-        <nav class="header-nav">
-            <ul class="header-list">
-                <li class="header-list-item">
-                    <a href="#" class="header-link">
-                        Home
-                    </a>
-                </li>
-                <li class="header-list-item">
-                    <a href="#services" class="header-link">
-                        Services
-                    </a>
-                </li>
-                <li class="header-list-item">
-                    <a href="#articles" class="header-link">
-                        Articles
-                    </a>
-                </li>
-                <li class="header-list-item">
-                    <a href="#clients" class="header-link">
-                        Clients
-                    </a>
-                </li>
-                <li class="header-list-item">
-                    <a href="#contacts" class="header-link">
-                        Contacts
-                    </a>
-                </li>
-                <li class="header-list-item">
-                    <a href="#join-us" class="header-link">
-                        Join us
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <!-- тег с классом можно прописать: название_тега.класс_тега.подкласс_тега -->
-        <button class="btn header-btn">
-            Free trial
-        </button>
     </header>
     <main class="main">
         <section id="hero" class="hero">
@@ -152,7 +152,7 @@
                 <ul class="articles-list">
                     <li class="articles-item">
                         <article class="blog-preview">
-                            <img src="img/blog-1.jpg" alt="Blog photo 1" class="block-preview-image">
+                            <img src="img/blog-1.jpg" alt="Blog photo 1" class="blog-preview-image">
                             <div class="blog-preview-text">
                                 <time datetime="2021-11-15 19:30" class="blog-preview-time">
                                     15 Nov 2021
@@ -168,7 +168,7 @@
                     </li>
                     <li class="articles-item">
                         <article class="blog-preview">
-                            <img src="img/blog-2.jpg" alt="Blog photo 2" class="block-preview-image">
+                            <img src="img/blog-2.jpg" alt="Blog photo 2" class="blog-preview-image">
                             <div class="blog-preview-text">
                                 <time datetime="2021-11-15 19:30" class="blog-preview-time">
                                     28 Nov 2021
@@ -184,7 +184,7 @@
                     </li>
                     <li class="articles-item">
                         <article class="blog-preview">
-                            <img src="img/blog-3.jpg" alt="Blog photo 3" class="block-preview-image">
+                            <img src="img/blog-3.jpg" alt="Blog photo 3" class="blog-preview-image">
                             <div class="blog-preview-text">
                                 <time datetime="2021-11-15 19:30" class="blog-preview-time">
                                     29 Nov 2021
@@ -200,7 +200,7 @@
                     </li>
                     <li class="articles-item">
                         <article class="blog-preview">
-                            <img src="img/blog-4.jpg" alt="Blog photo 4" class="block-preview-image">
+                            <img src="img/blog-4.jpg" alt="Blog photo 4" class="blog-preview-image">
                             <div class="blog-preview-text">
                                 <time datetime="2021-11-15 19:30" class="blog-preview-time">
                                     11 Dec 2021
@@ -218,92 +218,116 @@
             </div>
         </section>
         <section id="clients" class="clients">
-            <h2 class="section-title clients-title">
-                Clients
-            </h2>
-            <ul class="clients-list">
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-                        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-                        blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <div class="clients-user">
-                        <div class="clients-avatar">
-                            <img src="img/client-1.jpg" alt="John Armstrong">
-                        </div>
-                        <div class="clients-text">
-
-                            <div class="clients-name">
-                                John Armstrong
+            <div class="container">
+                <h2 class="section-title clients-title">
+                    Clients
+                </h2>
+                <ul class="clients-list">
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit odio dignissim qui blandit molestie consequat.
+                        </p>
+                        <div class="clients-user">
+                            <div class="clients-avatar">
+                                <img src="img/client-1.jpg" alt="John Armstrong">
                             </div>
-                            <span class="clients post">
-                                Customer
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-                        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-                        blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <div class="clients-user">
-                        <div class="clients-avatar">
-                            <img src="img/client-2.jpg" alt="Elizabeth Martin">
-                        </div>
-                        <div class="clients-text">
+                            <div class="clients-text">
 
-                            <div class="clients-name">
-                                Elizabeth Martin
+                                <div class="clients-name">
+                                    John Armstrong
+                                </div>
+                                <span class="clients-post">
+                                    Customer
+                                </span>
                             </div>
-                            <span class="clients post">
-                                Customer
-                            </span>
                         </div>
-                    </div>
-                </li>
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-                        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-                        blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <div class="clients-user">
-                        <div class="clients-avatar">
-                            <img src="img/client-3.jpg" alt="Robin Soutby">
-                        </div>
-                        <div class="clients-text">
-
-                            <div class="clients-name">
-                                Robin Soutby
+                    </li>
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit odio dignissim qui blandit molestie consequat.
+                        </p>
+                        <div class="clients-user">
+                            <div class="clients-avatar">
+                                <img src="img/client-2.jpg" alt="Elizabeth Martin">
                             </div>
-                            <span class="clients post">
-                                Customer
-                            </span>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                            <div class="clients-text">
 
+                                <div class="clients-name">
+                                    Elizabeth Martin
+                                </div>
+                                <span class="clients-post">
+                                    Customer
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit odio dignissim qui blandit molestie consequat.
+                        </p>
+                        <div class="clients-user">
+                            <div class="clients-avatar">
+                                <img src="img/client-3.jpg" alt="Robin Soutby">
+                            </div>
+                            <div class="clients-text">
+
+                                <div class="clients-name">
+                                    Robin Soutby
+                                </div>
+                                <span class="clients-post">
+                                    Customer
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
         </section>
         <section id="contacts" class="contacts">
             <div class="container">
                 <h2 class="section-title contacts-title">
+                    Contacts
+                </h2>
+                <address class="contacts-address">
                     <ul class="contacts-list">
                         <li class="contacts-item">
-                            
+                            <strong class="contacts-item-caption">Visit Us</strong>
+                            <p class="contacts-item-text">
+                                Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.
+                            </p>
                         </li>
                         <li class="contacts-item">
-                            
+                            <strong class="contacts-item-caption">Call Us</strong>
+                            <a href="tel:+79876543210" class="contacts-item-link">
+                                +7 (987) 654-32-10
+                            </a>
+                            <a href="tel:+71234567890" class="contacts-item-link">
+                                +7 (123) 456-78-90
+                            </a>
+                            <!-- если номер в ссылке то нужна приписка tel: -->
+
                         </li>
                         <li class="contacts-item">
-                            
+                            <strong class="contacts-item-caption">Email Us</strong>
+                            <a href="mailto:example@example.com" class="contacts-item-link">
+                                example@example.com
+                            </a>
+                            <a href="mailto:support@example.com" class="contacts-item-link">
+                                support@example.com
+                            </a>
+                            <!-- если почта в ссылке то нужна приписка mailto: -->
                         </li>
                     </ul>
-                </h2>
+                </address>
             </div>
+
         </section>
         <!-- <section id="join-us" class="join-us">
 
