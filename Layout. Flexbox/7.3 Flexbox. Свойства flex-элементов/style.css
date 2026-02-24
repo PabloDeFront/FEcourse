@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.parent {
+  padding: 30px;
+}
+
+.child {
+  flex-basis: 10%;
+  flex-grow: 1;
+  min-height: 150px;
+  background-color: powderblue;
+  margin: 10px;
+  padding: 20px;
+}
+
+.parent {
+  display: flex;
+  align-items: stretch;
+}
+
+
+ /* ⁡⁢⁣⁢align-self⁡ - тот же align-items но применим к ⁡⁣⁣⁢единичному
+ элементу⁡ */
+
+ /* ⁡⁢⁣⁢flex-basis⁡ - то количество пикселей, которое будет занимать
+ flex элемент */
+/* ⁡⁢⁣⁡⁢⁣⁢𝗳𝗹𝗲𝘅-𝗯𝗮𝘀𝗶𝘀 главнее 𝘄𝗶𝗱𝘁𝗵⁡ */
+/* ⁡⁢⁣⁣flex-basis⁡ ⁡⁢⁢⁢это 𝘄𝗶𝗱𝘁𝗵 но для 𝗳𝗹𝗲𝘅 элементов⁡ */
+
+/* ⁡⁢⁣⁢Н͟О m͟a͟x͟-͟w͟i͟d͟t͟h г͟л͟а͟в͟н͟е͟е f͟l͟e͟x͟-͟b͟a͟s͟i͟s⁡ */

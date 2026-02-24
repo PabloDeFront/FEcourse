@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+    padding: 30px;
+}
+
+.container-item {
+    min-height: 150px;
+    background-color: blue;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+/* если у родителя ⁡⁢⁣⁢display:flex⁡, то все дочери будут
+выстроены в ряд */
+
+/* при⁡⁢⁣⁢ inline-flex⁡, это как flex, но контейнер становится
+строчным элементом */
+
+/* ⁡⁢⁣⁢flex-direction⁡ - направление главной оси */
+
+/* при ⁡⁢⁣⁢align-items:⁡ ⁡⁢⁢⁣stretch⁡; колонки растягиваются до высоты
+самой высокой колонки  */
+/* при ⁡⁢⁣⁢align-items:⁡⁢⁢⁣ center⁡; все элементы центрируются по 
+вертикали */
+/* при ⁡⁢⁣⁢align-items:⁡ ⁡⁢⁢⁣flex-start⁡; все блоки прижимаются к верху/леву
+при flex-end к низу/праву */
+
+/* при  ⁡⁢⁣⁢justify-content⁡: ⁡⁣⁣⁡⁢⁢⁢flex-start⁡⁡; прижмает все контент к
+началу, при flex-end к концу */
+/* при ⁡⁢⁣⁢justify-content⁡: ⁡⁢⁢⁢space-between⁡; между блоками одинаковые
+отступы */
+/* при ⁡⁢⁣⁢justify-content⁡: ⁡⁢⁢⁢space-around⁡; вокруг ⁡⁣⁢⁣отступы 1x внутри 2x⁡ */
+/* при ⁡⁢⁣⁢justify-content⁡: ⁡⁢⁢⁢space-evenly⁡; вокруг ⁡⁣⁢⁣отступы 1x⁡ */
+
+/* при ⁡⁢⁣⁢flex-wrap:⁡⁢⁢⁢ wrap⁡; элементы переностяся на следующую строку */
