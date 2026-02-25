@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+}
+
+.card {
+  margin-right: 21px;
+  border: 1px solid #bfbfbf;
+  width: 284px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+/* .invisible {
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+} */
+
+/* добавили невидимую карточку, которая фиксит баг, который появляется если в
+конце всего 2 элемента а не три */
+
+.card:nth-child(3n){
+    margin-right: 0;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.card-description {
+  margin-bottom: 30px;
+}
+
+.card-btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.grid {
+  outline: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ⁡⁢⁣⁢по итогу или до пикселя расчитываем сетку или добавляем невидимый элемент⁡ */
+
+/* ⁡⁢⁢⁣для проверки лейаута на сайте во вкладке 𝗖𝗼𝗻𝘀𝗼𝗹𝗲 прописать
+𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁.𝗯𝗼𝗱𝘆.𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝗘𝗱𝗶𝘁𝗮𝗯𝗹𝗲 = 𝘁𝗿𝘂𝗲⁡ */

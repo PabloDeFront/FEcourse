@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+}
+
+.card {
+  border: 1px solid #bfbfbf;
+  width: 285px;
+  min-height: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* не задавать жёстко высоту! */
+
+img {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.card-description {
+  margin-bottom: 30px;
+}
+
+.card-btn {
+  /* 40 */
+  font-size: 16px;
+  padding: 12px 20px;
+  line-height: 1;
+  min-width: 100px;
+  min-height: 30px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+/* не задавать жёстко высоту и ширину! */
