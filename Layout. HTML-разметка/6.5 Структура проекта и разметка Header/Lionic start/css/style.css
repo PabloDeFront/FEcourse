@@ -253,6 +253,9 @@ body {
 }
 
 /* articles */
+.articles {
+  border-bottom: 1px solid #dadada
+}
 
 .articles-list {
   flex-wrap: wrap;
@@ -260,8 +263,37 @@ body {
 
 .articles-item {
   width: 570px;
-  outline: 1px solid black;
   margin-bottom: 30px;
+}
+
+.blog-preview {
+  overflow: hidden;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+}
+
+/* overflow:hidden - убирает углы картинки, выходящие за рамки бордера */
+
+.blog-preview-time {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #787878;
+}
+
+.blog-preview-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #1c1c1c;
+}
+
+.blog-preview-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787878;
+  max-width: 210px;
 }
 
 .articles-item:not(:nth-child(2n)) {
@@ -295,12 +327,16 @@ body {
 
 /* clients */
 
+.clients {
+  border-bottom: 1px solid #dadada
+}
+
 .clients-item {
   flex-direction: column;
   width: 370px;
   padding: 50px 36px;
   padding-bottom: 30px;
-  outline: 1px solid black;
+  border: 1px solid #e4e4e4;
 }
 
 .clients-item:not(:nth-child(3n)) {
@@ -310,11 +346,18 @@ body {
 .clients-item-desc {
   margin: 0;
   margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #787878;
 }
 
 .clients-user {
   margin-top: auto;
+  padding-top: 28px;
+  max-width: 100%;
   align-items: center;
+  border-top: 1px solid #dadada;
 }
 
 .clients-avatar {
@@ -323,11 +366,33 @@ body {
   margin-right: 17px;
 }
 
+.clients-avatar img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #317289;
+  border-radius: 100%;
+}
+
 .clients-name {
   margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 180%;
+  color: #1c1c1c; 
+}
+
+.clients-post {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #787878;
 }
 
 /* contacts */
+
+.contacts {
+  border-bottom: 1px solid #dadada
+}
 
 .contacts-address {
   font-style: normal;
@@ -336,7 +401,22 @@ body {
 .contacts-item {
   flex-direction: column;
   width: 370px;
-  outline: 1px solid black;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 29px 29px;
+  padding-top: 48px;
+}
+
+.contacts-item-address {
+  background-image: url('../img/location.svg');
+}
+
+.contacts-item-call {
+  background-image: url('../img/phone.svg');
+}
+
+.contacts-item-mail {
+  background-image: url('../img/mail.svg');
 }
 
 .contacts-item:not(:nth-child(3n)) {
@@ -345,14 +425,26 @@ body {
 
 .contacts-item-caption {
   margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 180%;
+  color: #1c1c1c;
 }
 
 .contacts-item-text {
   margin: 0;
+  max-width: 215px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #787878;
 }
 
-.contacts-item-link:not(:last-child) {
-  margin-bottom: 5px;
+.contacts-item-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #787878;
 }
 
 /* footer */
@@ -379,6 +471,45 @@ body {
   margin-right: 28px;
 }
 
+.footer-copy {
+  font-weight: 400;
+  font-size: 12px;
+  color: #787878;
+}
+
+.footer-link {
+  font-weight: 600;
+  font-size: 15px;
+  color: #787878;
+}
+
+.footer-nav {
+  margin-right: 56px;
+}
+.social-link {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.social-link-tw {
+  background-image: url("../img/footer-tw.svg");
+}
+
+.social-link-linkedin {
+  background-image: url("../img/footer-li.svg");
+}
+
+.social-link-mail {
+  background-image: url("../img/footer-mail.svg");
+}
 
 /* margin-right в этом случае поставит кнопку в правой части,
 а все остальное в левой */
