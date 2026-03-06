@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <video width="480" height="500" poster="img/poster.jpg" controls loop preload="auto" autoplay muted >
+        <source src="media/video.mp4"/>
+        <!-- <source src="video.mp4" type="video/mp4" /> -->
+    </video>
+</body>
+
+
+<!-- <video> - родитель
+
+<source> - подключение файла -->
+<!-- можно подключить видео внутри <source> с помощью атрубута src -->
+
+<!-- poster="" - обложка видео -->
+
+<!-- controls - кнопки упрваление видео-->
+
+<!-- атрубут loop - позволяет зациклить видео -->
+
+<!-- атрубут preload: при none - видео не подгружается при разгрузке сайта,
+ auto - базовое значение, metadata - загружает пару секунд видео-->
+
+<!-- атрубут autoplay - автовоспроизведение видео, без muted не работает!!!
+ при этом атрибут preload перестает работать -->
+</html>
+
