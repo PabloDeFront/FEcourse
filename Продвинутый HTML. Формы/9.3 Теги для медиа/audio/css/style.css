@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #98817b;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;   
+    background-image: url("../img/body-bg.png");       
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.audio-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+    box-shadow: 10px 10px 10px #5e4e4a;
+}
+
+.audio-player {
+    max-width: 100%;
+    min-width: 70%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    border: 3px solid #74635f;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #f1f3f4;
+}
+
+
+.audio-card-cover {
+    max-width: 500px;
+    border: 3px solid #98817b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    font-size: 0;
+    
+}
+
+.audio-card-title{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+    bottom: -51px;
+    font-family: "Playfair", serif;
+    font-weight: 900;
+    font-size: 26px;
+    border: 3px solid #74635f;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #c9bbb7;
+    box-shadow: 10px 10px 10px #5c4d49
+}
