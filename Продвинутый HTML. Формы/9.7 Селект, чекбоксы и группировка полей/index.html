@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+
+        <fieldset>
+            <legend>Выбор пола</legend>
+            <label>
+                <input type="radio" name="gender" value="Мужской пол">Мужской пол
+            </label>
+
+            <input type="radio" name="gender" value="Женский пол" checked>Женский пол
+            <input type="radio" name="gender" value="Другой пол">Другой пол
+
+            <textarea name="message" placeholder="Введите сообщение"></textarea>
+
+            <select name="city">
+                <option value="Мурманск">Мурманск</option>
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+                <option value="Москва" disabled>Москва</option>
+            </select>
+        </fieldset>
+
+        <label>
+            <input type="radio" name="gender" value="Мужской пол">Мужской пол
+        </label>
+
+        <input type="radio" name="gender" value="Женский пол" checked>Женский пол
+        <input type="radio" name="gender" value="Другой пол">Другой пол
+
+        <textarea name="message" placeholder="Введите сообщение"></textarea>
+
+        <select name="city">
+            <option value="Мурманск">Мурманск</option>
+            <option value="Санкт-Петербург">Санкт-Петербург</option>
+            <option value="Москва" disabled>Москва</option>
+        </select>
+
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+
+</html>
+
+<!-- <⁡⁢⁢⁣⁡⁢⁢⁢⁡⁣⁢⁢⁡⁣⁢⁣⁡⁢⁢⁢𝗶𝗻𝗽𝘂𝘁 𝘁𝘆𝗽𝗲⁡⁡ ⁡=⁡⁢⁣⁢"𝗿𝗮𝗱𝗶𝗼"⁡> - кнопка выбора
+    ⁡⁢⁣⁣𝗰𝗵𝗲𝗰𝗸𝗲𝗱⁡ - атрибут - ⁡⁢⁢⁣кнопка сразу выбрана⁡ -->
+
+<!-- ⁡⁢⁣⁢𝗻𝗮𝗺𝗲="𝗴𝗲𝗻𝗱𝗲𝗿"⁡ - то как будет отображаться ⁡⁢⁣⁡⁢⁢⁣тип данных⁡⁡ на сервере (также группирует поля в 𝟭 "группу"),
+ в таком случае выбрать можно только 𝟭 пункт и выбор происходит в этой группе полей -->
+    <!-- ⁡⁢⁣⁣𝘃𝗮𝗹𝘂𝗲⁡ - атрибут - то ⁡⁢⁢⁣что отправится на сервер⁡ -->
+
+
+<!-- ⁡⁢⁣⁢<𝗹𝗮𝗯𝗲𝗹>⁡ - делает ⁡⁢⁢⁣активную область⁡ поля не только в самом поле, но и ⁡⁢⁢⁣на тексте⁡ -->
+
+
+<!-- ⁡⁢⁣⁢<⁡⁡⁢⁣⁢𝘁𝗲𝘅𝘁𝗮𝗿𝗲𝗮>⁡ - поле ввода для ⁡⁢⁢⁣многострочного текста⁡ (например описать вопрос) -->
+
+<!-- ⁡⁢⁣⁢<𝗼𝗽𝘁𝗶𝗼𝗻>⁡ - ⁡⁢⁢⁣выезжающий список⁡ с выбором -->
+    <!-- ⁡⁢⁣⁣𝗱𝗶𝘀𝗮𝗯𝗹𝗲𝗱⁡ - атрибут - ⁡⁢⁢⁣запрещает⁡ ⁡⁢⁢⁣выбор⁡ одного и пунктов списка -->
+
+
+<!-- ⁡⁢⁣⁢<⁡⁡⁢⁣⁢𝗳𝗶𝗲𝗹𝗱𝘀𝗲𝘁>⁡ - ⁡⁢⁢⁣группировка⁡ полей ввода -->
+
+<!-- ⁡⁢⁣⁢<𝗹𝗲𝗴𝗲𝗻𝗱>⁡ - ⁡⁢⁢⁣название группы⁡ полей -->
