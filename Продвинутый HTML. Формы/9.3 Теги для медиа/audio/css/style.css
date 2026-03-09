@@ -9,13 +9,13 @@ html {
 }
 
 body {
+    min-height: 100vh;   
     margin: 0;
     padding: 0;
-    background-color: #98817b;
     display: flex;
     justify-content: center; 
     align-items: center;
-    min-height: 100vh;   
+    background-color: #98817b;
     background-image: url("../img/body-bg.png");       
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,29 +31,29 @@ p {
 }
 
 @font-face {
-  font-family: "Playfair";
-  src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Playfair";
+    src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 .audio-card {
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    width: 500px;
     box-shadow: 10px 10px 10px #5e4e4a;
 }
 
 .audio-player {
     max-width: 100%;
     min-width: 70%;
+    bottom: 0px;
     display: block;
     position: absolute;
-    bottom: 0px;
     border: 3px solid #74635f;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -64,24 +64,24 @@ p {
 .audio-card-cover {
     max-width: 500px;
     border: 3px solid #98817b;
+    font-size: 0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     overflow: hidden;
-    font-size: 0;
     
 }
 
 .audio-card-title{
+    width: 100%;
+    height: 54px;
+    bottom: -51px;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 54px;
-    bottom: -51px;
+    font-size: 26px;
     font-family: "Playfair", serif;
     font-weight: 900;
-    font-size: 26px;
     border: 3px solid #74635f;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
