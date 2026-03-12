@@ -1,0 +1,18 @@
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    background-color: tan;
+}
+
+/* h1 {
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: initial;
+}
+
+h1 {
+    all: unset;
+} */
+
+/* unset через all сбрасывает огромные куски кода
+(где отдельно inherit и initial = all:unset) */

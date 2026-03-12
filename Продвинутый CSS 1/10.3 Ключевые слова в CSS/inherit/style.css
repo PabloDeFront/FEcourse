@@ -1,0 +1,9 @@
+li {
+    color: red;
+}
+
+a {
+    color: inherit;
+}
+
+/* inherit - наследование стиля от родителя */

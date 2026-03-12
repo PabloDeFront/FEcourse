@@ -1,0 +1,13 @@
+div {
+    background-color: crimson;
+    color: white;
+}
+
+div {
+    display: initial;
+}
+
+/* initial - возвращает стили к своему начальному значению */
+
+/* в нашем случае есть display:block, а начальное значение - display:inline */
+

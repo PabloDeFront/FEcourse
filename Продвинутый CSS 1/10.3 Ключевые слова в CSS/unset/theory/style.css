@@ -1,0 +1,13 @@
+div {
+    background-color: red;
+    color: white;
+}
+
+div {
+    color: unset;
+    display: unset;
+}
+
+/* unset: если свойство наследуемое, то сработает также, как и inherit, но
+если свойство НЕнаследуемое, то сработает также, как и initial */
+

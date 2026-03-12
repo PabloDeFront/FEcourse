@@ -1,0 +1,38 @@
+a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+a[href] {
+    background-color: red;
+}
+
+/* если у ссылки есть атрибут href, то покрасить в красный */
+
+a[href="https://google.com"] {
+    background-color: green;
+}
+
+/* если есть конкретный атрибут (href="https://google.com"), то
+покрасить в зеленый */
+
+a[href*="login"] {
+    background-color: bisque;
+}
+
+/* * - значит, что если ссылка содержит строку (login), то
+покрасить в бежевый */
+
+a[href^="http://"] {
+    background-color: yellow;
+}
+
+/* ^ - если ссылка начинается с (http://), то покрасить в
+жёлтый */
+
+a[href$=".pdf"] {
+    background-color: aqua;
+}
+
+/* $ - если значение атрибуты заканчивается на (.pdf) то покрасить
+в аквамариновый */
