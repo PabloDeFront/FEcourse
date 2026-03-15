@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 50px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+input:focus {
+  outline: 3px solid tomato;
+}
+
+/* :focus - при фокусировании (в данном случае при нажатии TAB или
+при нажатии на само поле ввода) меняются свойства */
+
+input:active {
+  background-color: tan;
+}
+
+/* :active - при нажатии и удерживании ЛКМ на элементе меняются свойства */

@@ -1,0 +1,10 @@
+.element {
+    width: 500px;
+    min-height: 100px;
+}
+
+.element::selection {
+    background-color: red;
+}
+
+/* ::selection - цвет выделения текста мышкой */

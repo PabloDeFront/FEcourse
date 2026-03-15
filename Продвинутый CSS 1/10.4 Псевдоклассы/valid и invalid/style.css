@@ -1,0 +1,10 @@
+input[type="email"]:valid {
+    background-color: lime;
+}
+
+input[type="email"]:invalid {
+    background-color: red;
+}
+
+/* если текст проходит валидацию (правильность почты в нашем случае), то
+активируются свойства :valid, если нет, то :invalid */

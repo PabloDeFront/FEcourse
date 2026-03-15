@@ -1,0 +1,15 @@
+a {
+    display: block;
+    color: red;
+}
+
+div:target p{
+    color: green;
+}
+
+a:target {
+    color: blue;
+}
+
+/* :target - если пользователь перешёл по ссылке на главу на этом же сайте, то
+применить свойства */

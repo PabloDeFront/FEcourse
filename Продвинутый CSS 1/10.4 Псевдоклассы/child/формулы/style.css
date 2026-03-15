@@ -1,0 +1,15 @@
+.child:nth-child(2n) {
+    background-color: red;
+}
+/* каждый второй */
+
+.child:nth-child(-n+3) {
+    background-color: green;
+}
+/* все элементы с третьего до начала списка */
+
+.child:not(:nth-child(3)) {
+    background-color: aquamarine;
+}
+
+/* все элементы кроме третьего */

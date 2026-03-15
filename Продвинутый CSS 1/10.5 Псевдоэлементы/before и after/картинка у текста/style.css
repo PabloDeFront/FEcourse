@@ -1,0 +1,16 @@
+a {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+a::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    background-image: url(img/arrow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

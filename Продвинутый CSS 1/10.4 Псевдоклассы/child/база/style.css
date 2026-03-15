@@ -1,0 +1,23 @@
+.child:nth-child(3) {
+    background-color: red;
+}
+/* 3 ребёнок с начала */
+
+.child:first-child {
+    background-color: green;
+}
+/* первый ребенок с начала */
+
+.child:last-child {
+    background-color: blue;
+}
+/* последний ребенок */
+
+.child:nth-last-child(2) {
+    background-color: aqua;
+}
+/* 2 ребёнок с конца */
+
+.child:nth-child(2n) {
+    background-color: red;
+}

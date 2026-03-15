@@ -1,0 +1,18 @@
+ol {
+    counter-reset: section;
+    list-style: none;
+}
+
+/* counter-reset - сбрасывает или создаёт счётчик 
+section - просто переменная (название счётчика) */
+
+li::before {
+    counter-increment: section;
+    content: "0" counter(section) ": ";
+}
+
+/* counter-increment - увеличивает значение счётчика */
+/* section - название счётчика, указанного выше */
+
+/* content - (доп значение к числу строки в начале) (обращение к счётчику) 
+(доп значение к числу строки в конце) */

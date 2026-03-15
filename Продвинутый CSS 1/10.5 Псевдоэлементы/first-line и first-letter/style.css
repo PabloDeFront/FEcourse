@@ -1,0 +1,19 @@
+.element {
+    width: 500px;
+    min-height: 100px;
+    background-color: tomato;
+}
+
+.element::first-line {
+    color: wheat;
+}
+
+/* ::first-line - выбирает только первую строку в тексте */
+
+.element::first-letter {
+    color: blue;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* ::first-letter - выбирает только первую букву */

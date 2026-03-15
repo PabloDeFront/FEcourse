@@ -1,0 +1,23 @@
+.element {
+    width: 500px;
+    min-height: 100px;
+    background-color: orange;
+}
+
+.element::before {
+    background-color: white;
+    content: "Привет";
+    display: block;
+}
+
+/* ::before - свойства для элемента до селектора */
+
+.element::after {
+    background-color: white;
+    content: "Пока";
+    display: block;
+}
+
+/* ::after - свойства для элемента после селектора  */
+
+/* ⁡⁢⁣⁢::before и ::after не работают без свойства content: ⁡*/
