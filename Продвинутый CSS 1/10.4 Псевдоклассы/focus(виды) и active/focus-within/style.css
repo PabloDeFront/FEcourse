@@ -1,0 +1,27 @@
+.main-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.main-form-title {
+    margin-bottom: 5px;
+}
+
+.main-form-input {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.main-form:focus-within {
+    outline: 2px solid red;
+}
+
+/* :focus-within - при выделении элемента внутри блока,
+выделяется не сам элемент, а весь блок */
