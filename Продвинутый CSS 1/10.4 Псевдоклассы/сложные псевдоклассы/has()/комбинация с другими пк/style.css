@@ -1,0 +1,23 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.card:has(img) {
+    border: 2px solid red;
+}
+/* :has - в этом случае, если карточка содержит img, то применить стили */
+
+.card:has(img[alt]) {
+    background-color: blue;
+}
+
+/* :has - если у изображение есть атрибут alt, то применить стили */
+
+.item:has(+ .active) {
+    color: aquamarine;
+}
+
+/* :has - если после элемента классом .item, идёт элемент с классом .active, то
+применить стили ТОЛЬКО к элементу с классом .item, который идёт перед .active */
