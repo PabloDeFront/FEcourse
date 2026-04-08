@@ -1,0 +1,16 @@
+.btn {
+    border: none;
+    padding: 5px 10px;
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+    /* or */
+
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: wheat;
+    color: #333;
+}
