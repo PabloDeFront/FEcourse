@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: darkgrey;
+}
+
+.main {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-item {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    font-size: 32px;
+    transition: all .3s ease-in-out;
+}
+
+/* или transition: transition-property transition-duration 
+transition-timing-function transition-delay; */
+
+.row-item:not(:nth-child(3)) {
+    margin-right: 20px;
+}
+
+.row-item:hover {
+    width: 400px;
+    height: 200px;
+    font-size: 64px;
+    background-color: rgb(47, 228, 47);
+}
+
+.side-nav {
+    width: 30px;
+    height: 45%;
+    background-color: lightgreen;
+    position: relative;
+    right: 5px;
+}
