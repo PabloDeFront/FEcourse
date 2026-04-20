@@ -6,57 +6,145 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: darkgrey;
-}
+body {
+    min-height: 100vh;
 
-.main {
-    height: 800px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: oklch(0.15 0.075 261);
 }
 
-.row {
-    width: 600px;
+.container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* gap вместо margin, создаёт отступы только между элементов: 1 значение
+между рядами, 2 - между столбцами */
+
+.gallery {
     height: 300px;
+    gap: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    color: oklch(0.96 0.1 261);
 }
 
-.row-item {
+.gallery__item {
     width: 200px;
     height: 100px;
-    border: 2px solid black;
-    border-radius: 20px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgreen;
+
     font-size: 32px;
+
+    border: 2px solid oklch(0.3 0.15 261);
+    border-radius: 20px;
+    background-color: oklch(0.2 0.075 261);
+    
     transition: all .3s ease-in-out;
+
+    cursor: pointer;
 }
 
 /* или transition: transition-property transition-duration 
 transition-timing-function transition-delay; */
 
-.row-item:not(:nth-child(3)) {
-    margin-right: 20px;
-}
-
-.row-item:hover {
+.gallery__item:hover {
     width: 400px;
     height: 200px;
     font-size: 64px;
-    background-color: rgb(47, 228, 47);
+    background-color: rgb(50, 47, 228);
+    border-color: oklch(0.4 0.15 261);
 }
 
-.side-nav {
-    width: 30px;
-    height: 45%;
-    background-color: lightgreen;
-    position: relative;
-    right: 5px;
+.nav-toggle {
+    display: none;
+}
+
+.sidebar {
+    width: 123px;
+    height: 45vh;
+    padding-left: 5px;
+
+    top: 50%;
+    position: fixed;
+    right: -120px;
+    transform: translateY(-50%);
+    transition: right 0.3s ease;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    border: 2px solid oklch(0.3 0.15 261);
+    background-color: oklch(0.2 0.075 261);
+    color: oklch(0.96 0.1 261);
+    z-index: 10;
+}
+
+.sidebar__toggle__btn {
+    position: absolute;
+    left: -50px;
+    width: 50px;
+    top: -2px;    
+    height: calc(100% + 4px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: oklch(0.2 0.075 261);
+    border: 2px solid oklch(0.3 0.15 261);
+    border-radius: 10px 0 0 10px;
+
+    transition: background-color .3s ease, border-color .3s ease;
+
+    cursor: pointer;
+}
+
+.sidebar__toggle__btn:hover {
+    background-color: rgb(50, 47, 228);
+    border-color: oklch(0.4 0.15 261);
+}
+
+
+.sidebar__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#nav-toggle:checked ~ .sidebar {
+    right: 0;
+}
+
+#nav-toggle:checked ~ .sidebar .sidebar__nav {
+    opacity: 1;
+}
+
+.sidebar__item {
+    padding: 10px;
+
+    background-color: oklch(0.2 0.075 261);
+    border: 1px solid oklch(0.5 0.15 261);
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+.sidebar__item:hover {
+    background-color: rgb(50, 47, 228);
+    border-color: oklch(0.4 0.15 261);
 }
