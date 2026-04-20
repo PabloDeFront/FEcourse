@@ -1,0 +1,51 @@
+/* Трансформация работает только на блочные элементы */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    height: 100vh;
+    width: 50%;
+    gap: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+
+    text-align: center;
+    line-height: 50px;
+
+
+    transition: transform .5s ease;
+}
+
+
+.item1:hover {
+    transform: translate(100px, -20px) scale(1.5);
+}
+
+/* translate(x,y) */
+/* scale() - увеличие/уменьшение размеров */
+
+.item2:hover {
+    transform: translate(0, -20px) scale(1.5);
+}
+
+.item3:hover {
+    transform: translate(-100px, -20px) scale(1.5);
+}

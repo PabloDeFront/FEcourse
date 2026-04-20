@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.text1 {
+    position: relative;
+
+    display: inline-block;
+
+    font-size: 32px;
+
+    padding: 5px 0;
+}
+
+.text1::after {
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+
+    transform: scaleX(0); /* начинаем с нулевой ширины */
+    transform-origin: center; /* точка трансформации - центр */
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.text1:hover::after {
+    transform: scaleX(1); 
+}
+
+.text2 {
+    position: relative;
+
+    display: inline-block;
+
+    font-size: 32px;
+
+    padding: 10px;
+
+    border: 2px solid #000;
+    border-radius: 20px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.text2:hover {
+    transform: translateY(-10px);
+}
