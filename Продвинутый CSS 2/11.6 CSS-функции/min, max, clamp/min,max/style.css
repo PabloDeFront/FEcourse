@@ -1,0 +1,20 @@
+.block {
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+    background-color: navy;
+    width: max(50%, 700px);
+}
+
+/* min(50%, 700px) - Ширина блока никогда не превысит 700 пикселей, 
+но также никогда не будет больше 50% от родителя  */
+/* замена: 
+width: 50%;
+max-width: 700px; */
+
+/* max(50%, 700px) - Ширина блока никогда не превысит 700 пикселей,
+но также никогда не будет меньше 50% от родителя */
+/* замена:
+width: 50%;
+min-width: 700px; */

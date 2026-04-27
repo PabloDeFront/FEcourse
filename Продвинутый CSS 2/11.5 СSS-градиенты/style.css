@@ -1,0 +1,39 @@
+/* .gradient {
+    width: 300px;
+    min-height: 300px;
+    background-image: linear-gradient(black, purple);
+} */
+
+/* linear-gradient(сколько угодно цветов) - градиент */
+
+.gradient {
+    width: 300px;
+    min-height: 300px;
+    background-image: linear-gradient(wheat 20%, crimson 40% 50%, navy 25%);
+}
+
+/* % - сколько цвет занимает от блока */
+/* если пропускать проценты между темы, которые будут занимать цвета, то
+будет размытие цветов */
+
+/* .gradient {
+    width: 300px;
+    min-height: 300px;
+    background-image: linear-gradient(90deg, rgb(57, 173, 57) 10%, rgb(0, 0, 0) 10%, cyan 90%);
+} */
+
+/* deg - поворот градиента по часовой стрелке */
+
+.gradient {
+    width: 300px;
+    min-height: 300px;
+    /* background-image: radial-gradient(at right, black, red); */
+    /* background-image: repeating-radial-gradient(circle, #606dbc, #606dbc 10px, #465298 10px, #465298 20px); */
+    background-image: radial-gradient(crimson, black, red);
+}
+
+/* radial-gradient - градиент по кругу из центра */
+/* at (left, right, top, bottom, center) или at (в процентах x% y%) - расположение эллипса градиента */
+/* % в начале - ширина, высота эллипса градиента */
+/* repeating-linear-gradient - в полоску */
+/* repeating-radial-gradient - в полоску кругом */

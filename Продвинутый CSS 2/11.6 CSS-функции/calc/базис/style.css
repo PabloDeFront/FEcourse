@@ -1,0 +1,18 @@
+body {
+    background-color: #ccc;
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+}
+
+.block {
+    background-color: white;
+    width: calc(100% / 4 - 200px);
+    min-height: 300px;
+    outline: 1px solid red;
+}
+
+/* calc - calculate (вычислить) */
+/* calc(100% / 4 - 200px) - всю ширину делим на 4 и оставляем пробел в 200px */
