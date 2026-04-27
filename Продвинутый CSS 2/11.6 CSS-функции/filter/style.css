@@ -1,0 +1,15 @@
+.blur {
+    width: 300px;
+    /* filter: blur(5px); */
+    /* filter: grayscale(50%); */
+    filter:invert(70%);
+
+}
+
+/* blur() - блюр изображения, чем больше значение, тем сильнее замыливает */
+/* grayscale(50%) - ЧБ фильтр */
+/* invert(100%) - инвертирование цветов */
+
+img {
+    max-width: 100%;
+}

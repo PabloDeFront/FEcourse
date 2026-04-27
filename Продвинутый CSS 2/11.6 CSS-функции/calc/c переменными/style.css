@@ -1,0 +1,17 @@
+.parent {
+    display: flex;
+}
+
+.block {
+    --gap: 30px;
+    margin-bottom: var(--gap);
+    min-height: 300px;
+    background-color: wheat;
+    width: calc((100% - (var(--gap) * 2)) / 3);
+}
+
+.block:not(:nth-child(3n)) {
+    margin-right: var(--gap);
+}
+
+/* НЕ ПРИМЕНЯТЬ calс в простых задачах */
