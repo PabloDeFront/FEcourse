@@ -1,0 +1,25 @@
+.menu-wrapper {
+    position: relative;
+    z-index: 3;
+    columns: 3;
+    width: 1170px;
+    margin: 0 auto;
+    columns: 3;
+}
+
+/* colums - количество столбцов (необязательной одинаковых по
+размеру) */
+
+.menu-wrapper__item {
+    display: inline-block;
+    break-inside: avoid-column;
+    padding-right: 30px;
+    padding-bottom: 32px;
+}
+
+/* break-inside: avoid-column - предотвращает разрыв содержимого
+одной колонки на 2 и более */
+
+.menu-wrapper__list {
+    padding-left: 0;
+}
